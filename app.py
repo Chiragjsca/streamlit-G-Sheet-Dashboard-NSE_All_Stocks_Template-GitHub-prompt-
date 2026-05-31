@@ -83,16 +83,15 @@ SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
 def get_gspread_client():
     try:
         creds_dict = dict(st.secrets["gcp_service_account"])
-        # Ensure private_key has correct newlines
         if "private_key" in creds_dict:
             creds_dict["private_key"] = creds_dict["private_key"].replace("\\n", "\n")
         creds = Credentials.from_service_account_info(creds_dict, scopes=SCOPES)
         client = gspread.authorize(creds)
-        # Test connection by fetching spreadsheet info
+        # Test connection
         client.open_by_key(SPREADSHEET_ID)
         return client, None
     except Exception as e:
-        return None, f"Auth Error: {str(e)}"
+        return None, f"Auth error: {str(e)}"
 
 @st.cache_data(ttl=300, show_spinner=False)
 def load_sheet(tab_name: str):
