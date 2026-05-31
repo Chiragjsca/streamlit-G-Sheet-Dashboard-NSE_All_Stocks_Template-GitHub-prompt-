@@ -2,11 +2,11 @@ import streamlit as st
 import gspread
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go
 from google.oauth2.service_account import Credentials
 
 st.set_page_config(page_title="NSE Stock Dashboard", page_icon="📈", layout="wide")
 
+# Dark theme CSS (same as before)
 st.markdown("""
 <style>
     .main { background-color: #0e1117; }
@@ -83,10 +83,12 @@ SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
 def get_gspread_client():
     try:
         creds_dict = dict(st.secrets["gcp_service_account"])
+        # Fix escaped newlines if any
         if "private_key" in creds_dict:
             creds_dict["private_key"] = creds_dict["private_key"].replace("\\n", "\n")
         creds = Credentials.from_service_account_info(creds_dict, scopes=SCOPES)
         client = gspread.authorize(creds)
+        # Test connection
         client.open_by_key(SPREADSHEET_ID)
         return client, None
     except Exception as e:
