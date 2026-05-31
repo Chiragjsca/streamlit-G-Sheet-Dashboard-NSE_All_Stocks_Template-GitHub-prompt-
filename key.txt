@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "axiomatic-idiom-496012-p8",
+  "private_key_id": "21661c8c5c08e401a3e6bdb2a97bf5ee60884d6a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDQGWP/FBxG7BzB\nK3qADamyIqin3ySzRRgKR3sTWW7ts4QubibFuERA2FzERdm8wncerdvjadEA2AgJ\nfn2oJcr98nSYnw16QjSOpTI90pZ1YNUVAUZ6ACNM+5Pmn6b4mIWKijyIc+8dKnM1\nBiAvxA57jGC2VaqPCp/mMGnJomM1d+4Emr4xBBqtmYj4hkFVZfqlWaECNI8ulm4A\neoNO3+Kz0oYk7FPas08qdz7nyI/GNNrUneIY7Uwv4q8NHw7j2LPratOjGZvpib7D\njeQS3PkBxmQ49fLgHrHez5dZtETpMdGf7r9iW2nwHwGreQLlCP7G2fs5+7r5pcu8\nnmbelt9rAgMBAAECggEADphhS5ApBY5k2+WFQ3rx1nUY2CFN7Sbg70OhLbO9lH1d\nPXZrUL3CR7wFEZ0GjvcirKur+vC+gG0mbygIfyUbbiE1rUimhNck4YZTlkNxWw0u\nFLmQrFjbIPiaIHg9GT11TEiywy1CbYy/JM5nroH1NBQd6lvqyPqJSXdGzCYQCD1f\nOPkpH9NWJgH89CQaulk3u0vVr2Pvn5I+eH7RPxlbfwaKDCwFUadfuNWiCFsinVEG\nW/1oqe4mOiITQL9N6W5EKksgXgaq4v41R0m+dOIJReUGuGrcG9HOxoJaWV3v0znE\nayiQcC6+Gl31cfYIeoM4Nc5PYFEOuGmlviDg602e6QKBgQDsYCXRxe6G1LFaq+ad\nYNZ1V6jMBPxu5wtWDqqU1UN3NvR/od8C7p7vBzGY7nMWo5TrY3oV1nPCNCaXd1qo\nSpm92rcXzSdDDn+5QMKOYqP6vrgs/KZNeZSYhSKAlW0Li21IW6I/k0IjVKbgtGCT\nVMAzhZbOu/sO5Rp3lY2XrFtE6QKBgQDhYEPoKI8wIocNPMZ3g4DzvrgZ5gsm6B48\nd4TQYHWKLpYs5swSCIddJYIHVCJuRwqNgJSD3Z9RqREzIshYolBxpetdFz8ge9oU\nzJ28L+cdEJuBpYqgCzuev7qvsRNVe6SIGfGvFHTLPN5d2ATj71Dpt+sjb02Oc9Ew\nWn4pt7PdMwKBgQChz0O0cTlSpUDvX+OTcln8o9BSMUuYo6L3+zw8fC0d68m9oVKn\nkC/OUu9Z0EmKgtqLtGI7lr1RgR+16iduMvtBovpZWb/5wHAgobtNeyrjmDE94on5\nWTQmoGS4/xFRqNVbhhbwTF8nDmjaQ8AkuwyDeHx+8uHvFVhj6kWuQXeNGQKBgQCM\n82Kk4DDk/sMNwVOyTRkp175V3CxfUc4PLQRwOdNo70fWnyVDpffahmmy4aiC5YUx\nCBhZ/BH2xVDPdVJtNF4xJX50guRlEXBLj8iaeC8HW2qWA40WGNBZsTk1Rf58eM5m\nnCstvxJoRRIhCMfOMc6dzPuO9r4/eCl9HytGNfCURwKBgAi5Ico+oxwAFmz53nWc\nEgam5Q+ewN28+BIzjlSXofySkyHIR0gShYoHeyTaj44lBDbdKuHM0ZWuXDop3TbY\nlEfPMykYO2OKGoz494Mh7s8JpdZE0NUBlkrmv8MOoQTwAS73ho2BwrVmVnhqswAi\nQxn1BtJ1JjTLHPt6u6gcgcxQ\n-----END PRIVATE KEY-----\n",
+  "client_email": "streamlit-g-sheet-dashboard-ns@axiomatic-idiom-496012-p8.iam.gserviceaccount.com",
+  "client_id": "108861163811956036302",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/streamlit-g-sheet-dashboard-ns%40axiomatic-idiom-496012-p8.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
