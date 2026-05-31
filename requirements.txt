@@ -1,3 +1,5 @@
 streamlit
-pandas
-openpyxl
+gspread
+# Add any other missing libraries below, for example:
+# pandas
+# google-auth
