@@ -1,0 +1,17 @@
+# NEVER commit these to GitHub - they contain private keys!
+.streamlit/secrets.toml
+*.json
+service_account.json
+axiomatic-idiom-496012-p8-f42364b00442.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
