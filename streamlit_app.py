@@ -11,7 +11,8 @@ try:
     credentials = dict(st.secrets["gcp_service_account"])
     gc = gspread.service_account_from_dict(credentials)
 except Exception as e:
-    st.error("Missing or incorrect credentials secrets.")
+    # This will now print the EXACT reason it is failing on the screen!
+    st.error(f"Authentication failed! The exact error is: {e}")
     st.stop()
 
 # 2. Open the Google Sheet using its Unique ID
