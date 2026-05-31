@@ -4,7 +4,6 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from google.oauth2.service_account import Credentials
-import pathlib
 
 # ─── PAGE CONFIG ──────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -97,8 +96,10 @@ ALL_TABS = {
 @st.cache_resource(show_spinner=False)
 def get_gspread_client():
     try:
-        key_path = pathlib.Path(__file__).parent / "service_account.json"
-        creds = Credentials.from_service_account_file(str(key_path), scopes=SCOPES)
+        creds = Credentials.from_service_account_info(
+            st.secrets["gcp_service_account"],
+            scopes=SCOPES,
+        )
         client = gspread.authorize(creds)
         return client, None
     except Exception as e:
